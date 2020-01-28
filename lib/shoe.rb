@@ -4,7 +4,7 @@ class Shoe
   BRANDS =[]
   def initialize(brand)
     @brand = brand
-    if BRANDS.detect {|X| 
+    if BRANDS.detect {|X|
     BRANDS << @brand
   end
 
